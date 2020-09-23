@@ -4,7 +4,7 @@ import java.util.*;
 public class DictionaryCommandline {
     DictionaryManagement dm = new DictionaryManagement();
     public void showAllWord() {
-        System.out.println(dm.dictionary.words);
+        System.out.println(dm.dictionary.words.size());
     }
 
     public static void main(String[] args)  {

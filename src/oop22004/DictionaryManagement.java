@@ -24,17 +24,14 @@ public class DictionaryManagement {
             while (data.hasNextLine()) {
                 String lineData = data.nextLine();
 
-
-                // analyse data
-
+                // analyse data, not tab
                 String[] tempArray = new String[2];
-                tempArray = lineData.split("\t");
-
+                tempArray = lineData.split("\\t");
 
 
                 // add new word to arrayList
-                Word w = new Word(tempArray[0], tempArray[1]);
-                dictionary.words.add(w);
+
+                dictionary.words.add(new Word(tempArray[0], tempArray[1]));
                 size++;
                 }
             data.close();
