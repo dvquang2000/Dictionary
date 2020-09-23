@@ -1,12 +1,9 @@
 package oop22004;
 
+import java.util.ArrayList;
+
 public class Dictionary {
-     Word[] words;
-
-    //Construction
-    Dictionary () {
-
-    }
+     ArrayList <Word> words = new ArrayList <> ();
 
 
 }

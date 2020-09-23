@@ -4,8 +4,9 @@ public class Word {
     private String wordTarget;
     private String wordExplain;
 
-    Word() {
-
+    Word(String wordTarget, String wordExplain) {
+            this.wordTarget = wordTarget;
+             this.wordExplain = wordExplain;
     }
     // getter, setter method
     public void setWordTarget(String wordTarget) {
