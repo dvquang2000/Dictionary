@@ -12,7 +12,6 @@ public class DictionaryManagement {
     File fileDictionary = new File("dictionary.txt");
     public int size = 0;
 
-
     DictionaryManagement() {
 
     }
@@ -23,14 +22,10 @@ public class DictionaryManagement {
 
             while (data.hasNextLine()) {
                 String lineData = data.nextLine();
-
-                // analyse data, not tab
                 String[] tempArray = new String[2];
                 tempArray = lineData.split("\\t");
 
-
                 // add new word to arrayList
-
                 dictionary.words.add(new Word(tempArray[0], tempArray[1]));
                 size++;
                 }
