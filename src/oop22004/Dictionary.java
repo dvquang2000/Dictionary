@@ -1,9 +1,10 @@
 package oop22004;
 
-import java.util.ArrayList;
+
+import java.util.LinkedList;
 
 public class Dictionary {
-     ArrayList <Word> words = new ArrayList <Word> ();
+     LinkedList <Word> words = new LinkedList <Word> ();
 
 
 }
