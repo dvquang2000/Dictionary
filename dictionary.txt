@@ -1,5 +1,5 @@
-Love	Yêu
-Miss	Nhớ
-Rain	Mưa
-Season	Mùa
-Summer	Hè
+love	yêu
+miss	nhớ
+rain	mưa
+season	mùa
+summer	hè
