@@ -24,26 +24,5 @@ public class DictionaryCommandline extends DictionaryManagement {
         dm.dictionaryLookup();
         showAllWords();
     }
-     public void dictionaryNew () {
-        dm.dictionarySearcher();
-     }
 
-    public static void main(String[] args)  {
-
-        Dictionary dictionary = new Dictionary();
-        DictionaryManagement dm = new DictionaryManagement();
-        DictionaryCommandline dc = new DictionaryCommandline();
-        dc.dictionaryAdvanced();
-       dc.dictionaryNew();
-        dc.showAllWords();
-
-
-
-
-
-
-
-
-
-    }
 }
